@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /assets
+Allow: /posts
+Sitemap: http://bupthua.github.io/sitemap.txt
+Sitemap: http://bupthua.github.io/atom.xml

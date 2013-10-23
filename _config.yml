@@ -1,3 +1,14 @@
-name: Your New Jekyll Site
 markdown: redcarpet
 pygments: true
+permalink: /posts/:title.html
+auto: true
+rdiscount:
+  extensions: [smart]
+
+title: Bupthua's Blog
+author:
+  name: bupthua
+  email: bupthua@gmail.com
+  github: bupthua
+  twitter: bupthua
+
