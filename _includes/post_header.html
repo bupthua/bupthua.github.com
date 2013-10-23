@@ -1,6 +1,9 @@
-<h1>
+<h2>
   <a href="{{ page.url }}">{{ page.title }}</a>
-</h1>
+</h2>
 <div class="authoring">
-  {{ page.date | date: "%B %e, %Y" }}
+  {{ page.date | date: "%B %e, %Y" }} posted in 
+  {% for c in page.categories %}
+	[<a href="/categories.html#{{ c }}-ref" class="category">{{ c }}</a>]
+  {% endfor %}
 </div>
